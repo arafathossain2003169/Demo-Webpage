@@ -1,0 +1,111 @@
+#hero{
+    height: 800px;
+    background-image: url("/Pictures/icons/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+}
+#hero-content{
+    width: 900px;
+    background-color: rgba(51, 47,47,0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 5px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+#hero-content h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "Raleway",sans-serif;
+    margin: 0;
+}
+#hero-content p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 32px;
+    /* font-family: "Raleway",sans-serif;
+    margin: 0; */
+}
+#hero-content a{
+    background-color: yellow;
+    border-radius: 3px;
+    padding: 12px 24px;
+    color: black;
+    font-size: 24;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 2px 4ppx 8px rgb(68,67,67);
+}
+#hero-content a:hover{
+    background-color: rgb(251,238,0);
+}
+.destination{
+    margin: 0 20px;
+}
+.destination img{
+    height: 200px;
+    width: 100%;
+    box-shadow: 1px 2px 4px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+}
+#highlights ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+#highlights {
+    
+    
+    padding: 24px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(45deg, rgb(227,251,253), rgb(202,243,240));
+    
+}
+.destination p{
+    text-align: center;
+    text-transform: uppercase;
+}
+#highlights h2{
+    text-align: center;
+    margin: 24px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+#destinations{
+    width: 90%;
+    margin: auto;
+}
+footer{
+    background-color: black;
+    background: linear-gradient(45deg, rgb(10,15,25), rgb(50,45,55));
+    /* align-items: center;
+    text-align: center; */
+    padding: 40px;
+}
+/* footer img{
+    height: 50px;
+    padding: 10px;
+} */
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer li{
+    height: 80px;
+    width: 80px;
+    margin: 0 50px;
+}
+footer img{
+    height: 100%;
+    width: 100%;
+}
